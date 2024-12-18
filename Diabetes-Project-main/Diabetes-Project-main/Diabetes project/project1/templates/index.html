@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <a href="/"></a>
+    <form action="/Result" method="post">
+        <div class="form-container">
+            <div class="form-title">Diabetes Prediction</div>
+            <div class="form-row">
+                <label for="Name">Name</label>
+                <input id="Name" name="Name" type="text" placeholder="Enter Name" required>
+            </div>
+            <div class="form-row">
+                <label for="Age">Age</label>
+                <input id="Age" name="Age" type="text" placeholder="Enter Age value" required>
+            </div>
+            <div class="form-row">
+                <label for="BMI">BMI</label>
+                <input id="BMI" name="BMI" type="text" placeholder="Enter BMI value" required>
+            </div>
+            <div class="form-row">
+                <label for="BloodPressure">Blood Pressure</label>
+                <input id="BloodPressure" name="BloodPressure" type="text" placeholder="Enter Blood Pressure value" required>
+            </div>
+            <div class="form-row">
+                <label for="Insulin">Insulin</label>
+                <input id="Insulin" name="Insulin" type="text" placeholder="Enter Insulin value" required>
+            </div>
+            <div class="form-row">
+                <button type="submit">Result</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
