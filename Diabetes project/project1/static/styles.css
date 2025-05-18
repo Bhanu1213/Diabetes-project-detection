@@ -1,0 +1,49 @@
+/* General Reset for the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+strong {
+    font-size: 22px;
+    color: #e74c3c; /* Red for "Diabetes (Positive)" */
+}
+strongn {
+    font-size: 22px;
+    color: #3ce76a; /* green for "Diabetes (negative)" */
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #3498db; /* Blue button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
